@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and local config
+.env
+.env.*
+.claude/settings.local.json
+*.local.md
+
+# Reference screenshots are third-party work: keep them local, publish only INDEX.md
+references/*
+!references/.gitkeep
+!references/INDEX.md
+
+# Evaluation renders and scratch output
+renders/
+screenshots/
+
+# Tooling
+node_modules/
+__pycache__/
